@@ -1,0 +1,31 @@
+# Terraform working directories and downloaded providers
+**/.terraform/
+
+# Local state files. State may contain sensitive information.
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Private variable values. Commit example files instead.
+*.tfvars
+*.tfvars.json
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Locally saved execution plans
+*.tfplan
+*.tfplan.*
+*.plan
+
+# Terraform CLI configuration may contain credentials
+.terraformrc
+terraform.rc
+
+# Do not ignore .terraform.lock.hcl: commit provider dependency locks.
