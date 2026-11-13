@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-labelledby="diagram-title diagram-description">
+  <title id="diagram-title">Terraform beginner workflow</title>
+  <desc id="diagram-description">Four steps: write Terraform configuration, initialize providers, preview a plan, and manually approve apply. The example creates a local text file.</desc>
+  <rect x="0" y="0" width="1100" height="360" rx="22" fill="#F5F8FC"/>
+  <text x="36" y="46" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#172B4D">Terraform workflow</text>
+  <text x="36" y="76" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#52657D">Describe the result, inspect the changes, then decide whether to apply them.</text>
+
+  <rect x="34" y="110" width="225" height="142" rx="14" fill="#FFFFFF" stroke="#CFD9E5" stroke-width="2"/>
+  <rect x="34" y="110" width="225" height="10" rx="5" fill="#5B64D6"/>
+  <circle cx="66" cy="149" r="17" fill="#EBEAFE"/>
+  <text x="66" y="155" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#4D56BE">1</text>
+  <text x="94" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172B4D">Write</text>
+  <text x="53" y="195" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#304763">main.tf</text>
+  <text x="53" y="223" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#667B91">Desired configuration</text>
+
+  <path d="M 266 179 H 297" fill="none" stroke="#8295AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 290 172 L 299 179 L 290 186" fill="none" stroke="#8295AB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="304" y="110" width="225" height="142" rx="14" fill="#FFFFFF" stroke="#CFD9E5" stroke-width="2"/>
+  <rect x="304" y="110" width="225" height="10" rx="5" fill="#0E9384"/>
+  <circle cx="336" cy="149" r="17" fill="#DFF8F1"/>
+  <text x="336" y="155" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#087A70">2</text>
+  <text x="364" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172B4D">Initialize</text>
+  <text x="323" y="195" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#304763">terraform init</text>
+  <text x="323" y="223" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#667B91">Prepare the provider</text>
+
+  <path d="M 536 179 H 567" fill="none" stroke="#8295AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 560 172 L 569 179 L 560 186" fill="none" stroke="#8295AB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="574" y="110" width="225" height="142" rx="14" fill="#FFFFFF" stroke="#CFD9E5" stroke-width="2"/>
+  <rect x="574" y="110" width="225" height="10" rx="5" fill="#D29D28"/>
+  <circle cx="606" cy="149" r="17" fill="#FFF2CD"/>
+  <text x="606" y="155" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#966A0E">3</text>
+  <text x="634" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172B4D">Preview</text>
+  <text x="593" y="195" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#304763">terraform plan</text>
+  <text x="593" y="223" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#667B91">No resources changed</text>
+
+  <path d="M 806 179 H 837" fill="none" stroke="#8295AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 830 172 L 839 179 L 830 186" fill="none" stroke="#8295AB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="844" y="110" width="225" height="142" rx="14" fill="#FFFFFF" stroke="#CFD9E5" stroke-width="2"/>
+  <rect x="844" y="110" width="225" height="10" rx="5" fill="#397CC0"/>
+  <circle cx="876" cy="149" r="17" fill="#E1F0FF"/>
+  <text x="876" y="155" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#24639F">4</text>
+  <text x="904" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172B4D">Apply</text>
+  <text x="863" y="195" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#304763">terraform apply</text>
+  <text x="863" y="223" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#667B91">Manual confirmation</text>
+
+  <rect x="34" y="284" width="1035" height="49" rx="11" fill="#E8F2FA" stroke="#C4DFEF"/>
+  <text x="552" y="315" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" font-size="17" font-weight="600" fill="#244B72">Result after approval: Terraform creates hello.txt on your computer</text>
+</svg>

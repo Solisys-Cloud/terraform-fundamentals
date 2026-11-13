@@ -12,7 +12,7 @@ Follow these modules in order:
 
 | Module | Topic | What you will learn |
 | --- | --- | --- |
-| `01-what-is-terraform/` | What is Terraform? | Infrastructure as Code and the Terraform workflow |
+| [`01-what-is-terraform/`](01-what-is-terraform/README.md) | What is Terraform? | Infrastructure as Code and the Terraform workflow |
 | `02-providers/` | Providers | How Terraform connects to resources, including the local provider |
 | `03-tf-files/` | Terraform files | What `main.tf`, `versions.tf`, and other `.tf` files do |
 | `04-state/` | State | Why Terraform keeps state and how to protect it |
@@ -29,11 +29,13 @@ Follow these modules in order:
 
 Each module includes:
 
-1. A short, plain-English `README.md`.
-2. A clear SVG diagram.
-3. A small example you can run without Azure whenever possible.
-4. One progressive exercise.
-5. Three **Check your understanding** questions.
+1. **Learn:** a short, plain-English explanation and an SVG diagram.
+2. **See:** a real example you can run without Azure whenever possible.
+3. **Practice:** a guided lab with commands, expected results, and safe cleanup.
+4. **Try:** an independent challenge in [`exercises/`](exercises/README.md), with hints and a hidden example solution.
+5. **Review:** three **Check your understanding** questions with explained answers.
+
+The aim is roughly **30% reading and 70% hands-on practice**. Start with guided steps, then do the challenge on your own.
 
 ## Getting started
 
