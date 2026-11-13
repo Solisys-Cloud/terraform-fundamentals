@@ -45,7 +45,7 @@ Each module includes:
 ## Contribution and review workflow
 
 - Use a **separate branch and pull request** for each module. Never push directly to `main`.
-- Claude reviews each pull request. Olivier validates and merges it.
+- Every change is reviewed in a pull request before it is merged.
 - Start the next pull request only after the previous one has been merged.
 - Keep explanations and examples beginner-friendly.
 
