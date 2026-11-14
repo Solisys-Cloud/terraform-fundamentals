@@ -13,7 +13,7 @@ Follow these modules in order:
 | Module | Topic | What you will learn |
 | --- | --- | --- |
 | [`01-what-is-terraform/`](01-what-is-terraform/README.md) | What is Terraform? | Infrastructure as Code and the Terraform workflow |
-| `02-providers/` | Providers | How Terraform connects to resources, including the local provider |
+| [`02-providers/`](02-providers/README.md) | Providers | How Terraform connects to resources, including the local provider |
 | `03-tf-files/` | Terraform files | What `main.tf`, `versions.tf`, and other `.tf` files do |
 | `04-state/` | State | Why Terraform keeps state and how to protect it |
 | `05-variables-outputs/` | Variables and outputs | How to reuse configuration and view results |
