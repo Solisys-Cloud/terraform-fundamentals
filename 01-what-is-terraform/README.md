@@ -129,6 +129,11 @@ Review the destroy preview first. Confirm `terraform destroy` manually to delete
 
 **Important:** Terraform also creates local working data, including a `.terraform/` directory and a state file. State can contain sensitive information and must not be committed. The repository's `.gitignore` excludes it. State is explained in module 04.
 
+> **From the field**
+> In real projects, changes made manually outside Terraform can cause configuration drift.
+> A new `terraform plan` can reveal differences between the code and the actual resources.
+> Review the plan, update the configuration for intended changes, and avoid blindly applying it.
+
 ## 5. Independent challenge
 
 Complete the [module 01 challenge](../exercises/01-what-is-terraform/README.md) without following a full solution. You will create a second local file, inspect the plan, and remove both files safely.
