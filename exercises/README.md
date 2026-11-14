@@ -5,6 +5,7 @@ These exercises build on the matching course module. Finish the guided lab in ea
 | Exercise | Focus | Prerequisite |
 | --- | --- | --- |
 | [01. Your first local resources](01-what-is-terraform/README.md) | Create, update, preview, and remove files | [Module 01](../01-what-is-terraform/README.md) |
+| [02. One provider, two files](02-providers/README.md) | Provider selection, lock files, and reuse | [Module 02](../02-providers/README.md) |
 
 More exercises will be added as new modules are published.
 
