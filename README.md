@@ -14,14 +14,14 @@ Follow these modules in order:
 | --- | --- | --- |
 | [`01-what-is-terraform/`](01-what-is-terraform/README.md) | What is Terraform? | Infrastructure as Code and the Terraform workflow |
 | [`02-providers/`](02-providers/README.md) | Providers | How Terraform connects to resources, including the local provider |
-| `03-tf-files/` | Terraform files | What `main.tf`, `versions.tf`, and other `.tf` files do |
-| `04-state/` | State | Why Terraform keeps state and how to protect it |
-| `05-variables-outputs/` | Variables and outputs | How to reuse configuration and view results |
+| [`03-tf-files/`](03-tf-files/README.md) | Terraform files | What `main.tf`, `versions.tf`, and other `.tf` files do |
+| [`04-state/`](04-state/README.md) | State | Why Terraform keeps state and how to protect it |
+| [`05-variables-outputs/`](05-variables-outputs/README.md) | Variables and outputs | How to reuse configuration and view results |
 | `06-modules/` | Modules | How to organize and reuse Terraform code |
 | `07-essential-commands/` | Essential commands | `init`, `fmt`, `validate`, `plan`, `apply`, and `destroy` |
 | `08-git-basics/` | Git basics | Repositories, commits, staging, and pushing changes |
 | `09-branches-pull-requests/` | Branches and pull requests | How to work safely with branches and code review |
-| `exercises/` | Practice | Progressive exercises that combine the topics |
+| [`exercises/`](exercises/README.md) | Practice | Progressive exercises that combine the topics |
 
 > Modules will be added gradually. A folder may not exist until its pull request has been merged.
 
@@ -46,7 +46,7 @@ The aim is roughly **30% reading and 70% hands-on practice**. Start with guided 
 
 ## Contribution and review workflow
 
-- Use a **separate branch and pull request** for each module. Never push directly to `main`.
+- Use a **separate branch and pull request** for each coherent set of changes, for example one theme or a group of related modules. Never push directly to `main`.
 - Every change is reviewed in a pull request before it is merged.
 - Start the next pull request only after the previous one has been merged.
 - Keep explanations and examples beginner-friendly.

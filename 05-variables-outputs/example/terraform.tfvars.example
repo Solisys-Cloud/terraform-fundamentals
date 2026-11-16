@@ -1,0 +1,8 @@
+# Example variable values.
+# Copy this file to terraform.tfvars and edit the copy.
+# terraform.tfvars is ignored by Git because real projects often keep
+# private values in it.
+
+project_name = "webshop"
+environment  = "tst"
+team_members = ["Alex", "Sam", "Robin"]

@@ -160,4 +160,4 @@ Complete the [module 01 challenge](../exercises/01-what-is-terraform/README.md) 
 - **Unexpected plan**: confirm your terminal is in `01-what-is-terraform/example`.
 - **File still exists after cleanup**: read the destroy output and confirm the file is still managed by this configuration. Do not delete Terraform state to fix a plan.
 
-**Next:** [02. Providers](../02-providers/README.md), when published.
+**Next:** [02. Providers](../02-providers/README.md).
