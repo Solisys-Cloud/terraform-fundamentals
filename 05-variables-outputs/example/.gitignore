@@ -1,0 +1,10 @@
+# Generated output files from module 05
+demo-dev.txt
+demo-tst.txt
+demo-prod.txt
+webshop-dev.txt
+webshop-tst.txt
+webshop-prod.txt
+*-dev.txt
+*-tst.txt
+*-prod.txt

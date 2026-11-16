@@ -172,4 +172,4 @@ Try [Challenge 02: One provider, two files](../exercises/02-providers/README.md)
 - [Dependency lock file](https://developer.hashicorp.com/terraform/language/files/dependency-lock)
 - [Local provider reference](https://registry.terraform.io/providers/hashicorp/local/latest/docs)
 
-**Next:** [03. Terraform files](../03-tf-files/README.md), when published.
+**Next:** [03. Terraform files](../03-tf-files/README.md).

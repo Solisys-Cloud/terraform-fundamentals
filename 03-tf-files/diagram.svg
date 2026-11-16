@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="332" viewBox="0 0 1100 332" role="img" aria-labelledby="diagram-title diagram-description">
+  <title id="diagram-title">One directory, several .tf files</title>
+  <desc id="diagram-description">Terraform reads every .tf file in the working directory as one configuration.</desc>
+  <rect width="1100" height="332" rx="22" fill="#F5F8FC"/>
+  <text x="34" y="46" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#172B4D">One directory, several .tf files</text>
+  <text x="34" y="77" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#52657D">Terraform reads every .tf file in the working directory as one configuration.</text>
+  <rect x="34" y="116" width="223" height="146" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="34" y="116" width="223" height="9" rx="4" fill="#5E64D5"/>
+  <text x="53" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">versions.tf</text>
+  <text x="53" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">Terraform version</text>
+  <text x="53" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">Required providers</text>
+  <path d="M265 189 H291" stroke="#8194AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M283 181 L293 189 L283 197" fill="none" stroke="#8194AB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="303" y="116" width="223" height="146" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="303" y="116" width="223" height="9" rx="4" fill="#0C9487"/>
+  <text x="322" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">main.tf</text>
+  <text x="322" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">Main resources</text>
+  <path d="M534 189 H560" stroke="#8194AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M552 181 L562 189 L552 197" fill="none" stroke="#8194AB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="572" y="116" width="223" height="146" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="572" y="116" width="223" height="9" rx="4" fill="#DBA82E"/>
+  <text x="591" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">extra.tf</text>
+  <text x="591" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">More resources</text>
+  <text x="591" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">Any file name works</text>
+  <path d="M803 189 H829" stroke="#8194AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M821 181 L831 189 L821 197" fill="none" stroke="#8194AB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="841" y="116" width="223" height="146" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="841" y="116" width="223" height="9" rx="4" fill="#C2557A"/>
+  <text x="860" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">One configuration</text>
+  <text x="860" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">Loaded together</text>
+  <text x="860" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">Order does not matter</text>
+  <text x="34" y="304" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#52657D">File names are a convention for people. Terraform only cares about the .tf extension and the directory.</text>
+</svg>
