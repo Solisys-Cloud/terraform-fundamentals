@@ -1,0 +1,17 @@
+# Copy this file into your sandbox folder and rename it to .gitignore
+
+# Terraform working directory and downloaded providers
+**/.terraform/
+
+# State files can contain sensitive values
+*.tfstate
+*.tfstate.*
+
+# Private variable values
+*.tfvars
+
+# Saved plans
+*.tfplan
+
+# Generated file of this exercise
+hello.txt

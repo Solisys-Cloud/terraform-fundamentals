@@ -19,11 +19,19 @@ Follow these modules in order:
 | [`05-variables-outputs/`](05-variables-outputs/README.md) | Variables and outputs | How to reuse configuration and view results |
 | [`06-modules/`](06-modules/README.md) | Modules | How to organize and reuse Terraform code |
 | [`07-essential-commands/`](07-essential-commands/README.md) | Essential commands | `init`, `fmt`, `validate`, `plan`, `apply`, and `destroy` |
-| `08-git-basics/` | Git basics | Repositories, commits, staging, and pushing changes |
-| `09-branches-pull-requests/` | Branches and pull requests | How to work safely with branches and code review |
+| [`08-git-basics/`](08-git-basics/README.md) | Git basics | Repositories, commits, staging, and pushing changes |
+| [`09-branches-pull-requests/`](09-branches-pull-requests/README.md) | Branches and pull requests | How to work safely with branches and code review |
 | [`exercises/`](exercises/README.md) | Practice | Progressive exercises that combine the topics |
 
-> Modules will be added gradually. A folder may not exist until its pull request has been merged.
+## Suggested path
+
+| Stage | Modules | You can... |
+| --- | --- | --- |
+| Beginner | 01 to 03 | Read a Terraform folder and run the basic workflow |
+| Intermediate | 04 to 07 | Explain state, write variables and modules, and apply a reviewed plan |
+| Team-ready | 08 to 09 | Version your code and propose changes through pull requests |
+
+Modules 01 to 07 use only local files. Modules 08 and 09 use Git; a GitHub account is needed only for the pull request part.
 
 ## What to expect in each module
 

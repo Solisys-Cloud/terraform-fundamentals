@@ -11,7 +11,7 @@ These exercises build on the matching course module. Finish the guided lab in ea
 | [05. A configurable greeting](05-variables-outputs/README.md) | Variables, validation, and outputs | [Module 05](../05-variables-outputs/README.md) |
 | [06. A third note and a new input](06-modules/README.md) | Module calls and compatible changes | [Module 06](../06-modules/README.md) |
 | [07. Find the errors](07-essential-commands/README.md) | `fmt`, `validate`, `plan`, and saved plans | [Module 07](../07-essential-commands/README.md) |
-
-More exercises will be added as new modules are published.
+| [08. Three clean commits](08-git-basics/README.md) | Staging, commits, and ignore rules | [Module 08](../08-git-basics/README.md) |
+| [09. Two branches, one file](09-branches-pull-requests/README.md) | Branches, conflicts, and pull requests | [Module 09](../09-branches-pull-requests/README.md) |
 
 **Safety:** Run any `terraform apply` or `terraform destroy` command yourself only after reviewing the plan. Do not commit state files, provider downloads, or secrets.
