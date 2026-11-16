@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="362" viewBox="0 0 1100 362" role="img" aria-labelledby="diagram-title diagram-description">
+  <title id="diagram-title">One module, several calls</title>
+  <desc id="diagram-description">A module is a folder of Terraform code that you call with your own values.</desc>
+  <rect width="1100" height="362" rx="22" fill="#F5F8FC"/>
+  <text x="34" y="46" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#172B4D">One module, several calls</text>
+  <text x="34" y="77" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#52657D">A module is a folder of Terraform code that you call with your own values.</text>
+  <rect x="34" y="116" width="313" height="176" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="34" y="116" width="313" height="9" rx="4" fill="#5E64D5"/>
+  <text x="53" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">Root configuration</text>
+  <text x="53" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">main.tf</text>
+  <text x="53" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">module &quot;alpha&quot;</text>
+  <text x="53" y="252" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">module &quot;beta&quot;</text>
+  <path d="M355 204 H381" stroke="#8194AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M373 196 L383 204 L373 212" fill="none" stroke="#8194AB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="393" y="116" width="313" height="176" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="393" y="116" width="313" height="9" rx="4" fill="#0C9487"/>
+  <text x="412" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">Child module</text>
+  <text x="412" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">modules/note</text>
+  <text x="412" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">variables.tf</text>
+  <text x="412" y="252" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">main.tf, outputs.tf</text>
+  <path d="M714 204 H740" stroke="#8194AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M732 196 L742 204 L732 212" fill="none" stroke="#8194AB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="752" y="116" width="313" height="176" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="752" y="116" width="313" height="9" rx="4" fill="#DBA82E"/>
+  <text x="771" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">Results</text>
+  <text x="771" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">output/alpha.txt</text>
+  <text x="771" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">output/beta.txt</text>
+  <text x="771" y="252" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">module.alpha.file_path</text>
+  <text x="34" y="334" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#52657D">Inputs go in through variables. Results come back through outputs. Nothing else crosses the border.</text>
+</svg>
