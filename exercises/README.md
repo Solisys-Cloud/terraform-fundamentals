@@ -9,6 +9,8 @@ These exercises build on the matching course module. Finish the guided lab in ea
 | [03. Tidy up one big file](03-tf-files/README.md) | File roles and safe refactoring | [Module 03](../03-tf-files/README.md) |
 | [04. Lose the state, then get it back](04-state/README.md) | State commands, drift, and backups | [Module 04](../04-state/README.md) |
 | [05. A configurable greeting](05-variables-outputs/README.md) | Variables, validation, and outputs | [Module 05](../05-variables-outputs/README.md) |
+| [06. A third note and a new input](06-modules/README.md) | Module calls and compatible changes | [Module 06](../06-modules/README.md) |
+| [07. Find the errors](07-essential-commands/README.md) | `fmt`, `validate`, `plan`, and saved plans | [Module 07](../07-essential-commands/README.md) |
 
 More exercises will be added as new modules are published.
 

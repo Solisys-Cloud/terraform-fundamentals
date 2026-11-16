@@ -17,8 +17,8 @@ Follow these modules in order:
 | [`03-tf-files/`](03-tf-files/README.md) | Terraform files | What `main.tf`, `versions.tf`, and other `.tf` files do |
 | [`04-state/`](04-state/README.md) | State | Why Terraform keeps state and how to protect it |
 | [`05-variables-outputs/`](05-variables-outputs/README.md) | Variables and outputs | How to reuse configuration and view results |
-| `06-modules/` | Modules | How to organize and reuse Terraform code |
-| `07-essential-commands/` | Essential commands | `init`, `fmt`, `validate`, `plan`, `apply`, and `destroy` |
+| [`06-modules/`](06-modules/README.md) | Modules | How to organize and reuse Terraform code |
+| [`07-essential-commands/`](07-essential-commands/README.md) | Essential commands | `init`, `fmt`, `validate`, `plan`, `apply`, and `destroy` |
 | `08-git-basics/` | Git basics | Repositories, commits, staging, and pushing changes |
 | `09-branches-pull-requests/` | Branches and pull requests | How to work safely with branches and code review |
 | [`exercises/`](exercises/README.md) | Practice | Progressive exercises that combine the topics |

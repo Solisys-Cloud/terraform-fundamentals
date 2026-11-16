@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="332" viewBox="0 0 1100 332" role="img" aria-labelledby="diagram-title diagram-description">
+  <title id="diagram-title">The daily command sequence</title>
+  <desc id="diagram-description">Six commands cover most of the work. Always in this order.</desc>
+  <rect width="1100" height="332" rx="22" fill="#F5F8FC"/>
+  <text x="34" y="46" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#172B4D">The daily command sequence</text>
+  <text x="34" y="77" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#52657D">Six commands cover most of the work. Always in this order.</text>
+  <rect x="34" y="116" width="169" height="146" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="34" y="116" width="169" height="9" rx="4" fill="#5E64D5"/>
+  <text x="53" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">Prepare</text>
+  <text x="53" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">init</text>
+  <path d="M211 189 H237" stroke="#8194AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M229 181 L239 189 L229 197" fill="none" stroke="#8194AB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="249" y="116" width="169" height="146" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="249" y="116" width="169" height="9" rx="4" fill="#0C9487"/>
+  <text x="268" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">Check</text>
+  <text x="268" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">fmt</text>
+  <text x="268" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">validate</text>
+  <path d="M426 189 H452" stroke="#8194AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M444 181 L454 189 L444 197" fill="none" stroke="#8194AB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="464" y="116" width="169" height="146" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="464" y="116" width="169" height="9" rx="4" fill="#DBA82E"/>
+  <text x="483" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">Preview</text>
+  <text x="483" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">plan -out</text>
+  <path d="M641 189 H667" stroke="#8194AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M659 181 L669 189 L659 197" fill="none" stroke="#8194AB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="679" y="116" width="169" height="146" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="679" y="116" width="169" height="9" rx="4" fill="#C2557A"/>
+  <text x="698" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">Change</text>
+  <text x="698" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">apply &lt;plan&gt;</text>
+  <path d="M856 189 H882" stroke="#8194AB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M874 181 L884 189 L874 197" fill="none" stroke="#8194AB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="894" y="116" width="169" height="146" rx="14" fill="#FFFFFF" stroke="#CEDAE6" stroke-width="2"/>
+  <rect x="894" y="116" width="169" height="9" rx="4" fill="#3B82C4"/>
+  <text x="913" y="159" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#182F51">Remove</text>
+  <text x="913" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">plan -destroy</text>
+  <text x="913" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#34506C">destroy</text>
+  <text x="34" y="304" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#52657D">Read commands (fmt -check, validate, plan, show, output) change nothing. apply and destroy change real resources.</text>
+</svg>
